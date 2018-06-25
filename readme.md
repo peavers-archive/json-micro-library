@@ -3,6 +3,9 @@
 # Json Micro Library
 A very tiny wrapper around `jsonapi-converter` for reading/writing JSON API payloads.
 
+## What's a micro library? 
+Just that, a very tiny standalone .jar which can be imported into a project to do a very specific thing. 
+
 ## Installation
 Since we're making good use of JitPack, this is simple. 
 
@@ -32,7 +35,7 @@ public class JsonServiceConfig {
         objectMapper.setPropertyNamingStrategy(PropertyNamingStrategy.KEBAB_CASE);
 
         ResourceConverter resourceConverter = new ResourceConverter(objectMapper,
-                Steak.class, NativeBuild.class);
+                HelloWorld.class);
 
         return new JsonServiceImpl(resourceConverter);
     }
