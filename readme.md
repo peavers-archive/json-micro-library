@@ -1,6 +1,6 @@
 [![](https://jitpack.io/v/peavers/jsn-micro-library.svg)](https://jitpack.io/#peavers/json-micro-library)
 
-# Json Micro Library
+# Json micro library
 A very tiny wrapper around `jsonapi-converter` for reading/writing JSON API payloads.
 
 ## What's a micro library? 
