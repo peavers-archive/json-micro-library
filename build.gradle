@@ -12,8 +12,7 @@ repositories {
 }
 
 dependencies {
-    compile 'com.github.jasminb:jsonapi-converter:0.8.1'
-    compile 'javax.validation:validation-api:2.0.0.Final'
+    implementation 'com.github.jasminb:jsonapi-converter:0.9'
 
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.1.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.1.1'

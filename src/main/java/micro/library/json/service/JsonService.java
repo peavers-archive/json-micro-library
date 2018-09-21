@@ -1,7 +1,6 @@
 package micro.library.json.service;
 
 import com.github.jasminb.jsonapi.JSONAPIDocument;
-
 import java.util.List;
 
 public interface JsonService {
